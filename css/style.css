@@ -1,34 +1,25 @@
 
-
+@media only screen and (max-width: 600px) {
+  .jumbotron h1{
+   color:white;
+ }
+}
 .main1 {
     font: 400 15px/1.8 Lato, sans-serif;
-    background: linear-gradient(120deg, #f6b900 50%, #000000 50%);
+    background: linear-gradient(90deg, #f6b900 50%, #000000 50%);
     height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 .jumbotron{
-    margin: 10px 0 30px 0;
     letter-spacing: 4px;      
     font-size: 20px;
     color: rgb(0, 0, 0);
     background-color: inherit;
-      background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   }
   .main3{
     font: 400 15px/1.8 Lato, sans-serif;
     background: linear-gradient(90deg, #000000 50%, #f6b900 50%);
     height: 100%;
     color: black;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .main4{
@@ -36,33 +27,7 @@
     background: linear-gradient(90deg, #f6b900 50%, #000000 50%);
     height: 100%;
     color: black;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
-/* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}
-
 .main2 h1{
 color: black;
 font-size: 50px;
@@ -86,12 +51,7 @@ letter-spacing: 5px;
     background-color: #fff;
     color: #000;
   }
-  .modal-header, h4, .close {
-    background-color: #333;
-    color: #fff !important;
-    text-align: center;
-    font-size: 30px;
-  }
+
   .modal-header, .modal-body {
     padding: 40px 50px;
   }
@@ -159,8 +119,14 @@ letter-spacing: 5px;
   font-size: larger;
 
 }
-.head{
-  font-size: x-large;
-  font-weight: bolder;
-  color: coral;
+
+@media only screen and (max-width: 600px) {
+   body {
+    color:red;
+  }
+}
+
+.rapid{
+  padding: 0%;
+  margin: 0%;
 }
