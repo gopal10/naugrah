@@ -13,24 +13,6 @@
   <link rel="icon" href="images/logo.jpg">
   <title>Welcome To Naugrah R & D</title>
 
-  <script>
-    $(window).on("load",function() {
-  $(window).scroll(function() {
-    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-    $(".fade").each(function() {
-      /* Check the location of each desired element */
-      var objectBottom = $(this).offset().top + $(this).outerHeight();
-      
-      /* If the element is completely within bounds of the window, fade it in */
-      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
-      } else { //object goes out of view (scrolling up)
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
-      }
-    });
-  }).scroll(); //invoke scroll-handler on page-load
-});
-  </script>
 </head>
 <!-- NAVBAR WITH DRsOPDOWN -->
 
@@ -80,10 +62,10 @@
 
     <div class="container main2">
       <div class="col-md-6">
-        <h1 class="fade" style="color: white;">Who we are?</h1>
+        <h1 style="color: white;">Who we are?</h1>
       </div>
       <div class="col-md-6">
-        <h3 class="fade">We are first of its kind – design thinking oriented
+        <h3>We are first of its kind – design thinking oriented
           “Research & Development company”
           We design products, engineer them and
           manufacture functional prototypes with a
